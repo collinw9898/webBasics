@@ -1,11 +1,40 @@
 body {
-    background: burlywood;
     color: black;
     font-family: sans-serif;
     text-align: center;
 }
 
-p {
-    height: 30px;
-    background: burlywood;
+button {
+    border-radius: 5px;
+    width: 100px;    
+    height: width/2;
+    background-color: grey;
+    outline: none;
+}
+
+.rotate {
+    animation: myAnimation 3s linear 1;
+}
+
+.container {
+    width: 35%;
+    border: 1px solid black;
+    padding: 30px;
+    margin: auto;
+
+    box-shadow: 10px 10px 15px 
+    rgba(0, 0, 0, 0.5);
+}
+
+#cool {
+    height: 50%;
+    width: 50%;
+}
+
+@keyframes myAnimation {
+    0% {
+      transform: rotate(0deg);
+    } 100% {
+      transform: rotate(360deg);
+    }
 }
