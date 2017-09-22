@@ -28,11 +28,6 @@ button {
     rgba(0, 0, 0, 0.5);
 }
 
-#cool {
-    height: 50%;
-    width: 50%;
-}
-
 @keyframes myAnimation {
     0% {
       transform: rotate(0deg);
